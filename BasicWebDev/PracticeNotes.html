@@ -102,45 +102,53 @@ c<!DOCTYPE html>
         <hr/>
         <h1>FORMS</h1>
         <form>
-            text:<br/>
-            <input type="text"
-            value="value attribute">
-            <br/>
-            numbers:<br/>
-            <input type="number"
-            placeholder="placeholder attribute">
-            <br/>
-            password:<br/>
-            <input type="password">
-            <br/>
-            text area:
-            <textarea rows="10" cols="50">rows and cols attribute controls how big it is, you can put in sample text by just typing in the text area.
-            </textarea>
-            <br/>
-            <select>
-                <option selected>select</option>
-                <option value="not visible to the user">visible to the user</option>
-                <option value="na">selected is an attribute by itself, that makes the option selected by default</option>
-            </select>
-            <br/>
-            <input type="radio" name="doesn't matter" value="nm">
-            type=radio <br/>
-            <input type="radio" name="doesn't matter" value="rny">
-            name attribute groups the buttons <br/>
-            <input type="radio" name="doesn't matter" value="67">
-            value tells the creator what they picked <br/>
-            <br/>
-            <input type="checkbox" name="m" value="wow">
-            type=checkbox <br/>
-            <input type="checkbox" name="m" value="uh oh">
-            same as radio, but checkboxes <br/>
-            <input type="checkbox" name="m" value="aa" checked>
-            madoka <br/>
-            <input type="checkbox" name="m" value="yes" checked>
-            homura <br/>
-            <input type="checkbox" name="m" value="value">
-            checked to mark things already selected by default <br/>
-            
+            <fieldset>
+                text:<br/>
+                <input type="text"
+                value="value attribute">
+                <br/>
+                numbers:<br/>
+                <input type="number"
+                placeholder="placeholder attribute">
+                <br/>
+                password:<br/>
+                <input type="password">
+                <br/>
+                text area:
+                <textarea rows="10" cols="50">rows and cols attribute controls how big it is, you can put in sample text by just typing in the text area.
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <legend>legend tag can do this</legend>
+                <select>
+                    <option selected>select</option>
+                    <option value="not visible to the user">visible to the user</option>
+                    <option value="na">selected is an attribute by itself, that makes the option selected by default</option>
+                </select>
+                <br/>
+                <input type="radio" name="doesn't matter" value="nm">
+                type=radio <br/>
+                <input type="radio" name="doesn't matter" value="rny">
+                name attribute groups the buttons <br/>
+                <input type="radio" name="doesn't matter" value="67">
+                value tells the creator what they picked <br/>
+                <br/>
+                <input type="checkbox" name="m" value="wow">
+                type=checkbox <br/>
+                <input type="checkbox" name="m" value="uh oh">
+                same as radio, but checkboxes <br/>
+                <input type="checkbox" name="m" value="aa" checked>
+                madoka <br/>
+                <input type="checkbox" name="m" value="yes" checked>
+                homura <br/>
+                <input type="checkbox" name="m" value="value">
+                checked to mark things already selected by default <br/>
+                <br/>
+                <button tyoe="reset">reset button</button>
+                <button type="submit">submits form</button>
+                <button>this is the button tag, not input, though you can use input tag</button>
+                <p>fieldset tag can cold and differentiate areas of the form</p>
+            </fieldset>
         </form>
     </body>
 </html>
