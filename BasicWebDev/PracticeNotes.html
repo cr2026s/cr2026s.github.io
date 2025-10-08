@@ -202,18 +202,20 @@ rows and cols attribute controls how big it is, you can put in sample text by ju
         <style>
             div.flexing{
                 display:flex;
-                flex-direction:column-reverse;
+                flex-direction:row-reverse;
                 background-color:#c190c0;
                 height:320px; width:256px;
                 border: 2px solid black
             }
         </style>
-        <div class="flexing">
-            i'm so not flexing
+        <div style="display:flex; justify-content:space-around; background-color:#ff00ff; height:700px; width:1000px; border:5px double black">
+            <div class="flexing">
+                i'm so not flexing
+            </div>
+            <div class="flexing">
+                <img src="Images/kyoko.jpg" alt="fuck"/>
+            </div>
+            <div class="flexing">no way, using the flex wrap attribute can be set to wrap, to make the containers continue in the next available slot for them, depending on the direction they're going</div>
         </div>
-        <div class="flexing">
-            <img src="Images/kyoko.jpg" alt="fuck"/>
-        </div>
-        <div class="flexing">no way, using the flex wrap attribute can be set to wrap, to make the containers continue in the next available slot for them, depending on the direction they're going</div>
     </body>
 </html>
