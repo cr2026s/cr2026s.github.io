@@ -14,12 +14,13 @@
           section.puzzle {
               display:grid;
               grid-template-columns: repeat(4, 1fr);
-           /*   grid-template-rows: repeat(4, 1fr); */
+              gap:1px;
+              grid-template-rows: repeat(4, 1fr); 
               grid-template-areas:
-                  'pi pb pc pd'
-                  'pe pf pg ph'
-                  'pa pj pk pl'
-                  'pm pn po po'
+                  'p1 p2 p3 p4'
+                  'p5 p6 p7 p8'
+                  'p9 p10 p11 p12'
+                  'p13 p14 p15 p16' 
           }
           div.pa {
             grid-area: p1;
@@ -92,24 +93,30 @@
           }
           
         </style> 
-        <section class="puzzle">
-            <div class="pa"><img src="Images/PuzzleProject/puzzle1_A.jpg"/></div>
-            <div class="pb"><img src="Images/PuzzleProject/puzzle1_B.jpg"/></div>
-            <div class="pc"><img src="Images/PuzzleProject/puzzle1_C.jpg"/></div>
-            <div class="pd"><img src="Images/PuzzleProject/puzzle1_D.jpg"/></div>
-            <div class="pe"><img src="Images/PuzzleProject/puzzle1_E.jpg"/></div>
-            <div class="pf"><img src="Images/PuzzleProject/puzzle1_F.jpg"/></div>
-            <div class="pg"><img src="Images/PuzzleProject/puzzle1_G.jpg"/></div>
-            <div class="ph"><img src="Images/PuzzleProject/puzzle1_H.jpg"/></div>
-            <div class="pi"><img src="Images/PuzzleProject/puzzle1_I.jpg"/></div>
-            <div class="pj">10</div>
-            <div class="pk">11</div>
-            <div class="pl">12</div>
-            <div class="pm">13</div>
-            <div class="pn">14</div>
-            <div class="po">15</div>
-            <div class="pp">16</div>
-            <div class="pq">17</div>
+        <section class="info">
+            <div>a</div>
+            <div>
+                <section class="puzzle">
+                    <div class="pa"><img src="Images/PuzzleProject/puzzle1_A.jpg"/></div>
+                    <div class="pb"><img src="Images/PuzzleProject/puzzle1_B.jpg"/></div>
+                    <div class="pc"><img src="Images/PuzzleProject/puzzle1_C.jpg"/></div>
+                    <div class="pd"><img src="Images/PuzzleProject/puzzle1_D.jpg"/></div>
+                    <div class="pe"><img src="Images/PuzzleProject/puzzle1_E.jpg"/></div>
+                    <div class="pf"><img src="Images/PuzzleProject/puzzle1_F.jpg"/></div>
+                    <div class="pg"><img src="Images/PuzzleProject/puzzle1_G.jpg"/></div>
+                    <div class="ph"><img src="Images/PuzzleProject/puzzle1_H.jpg"/></div>
+                    <div class="pi"><img src="Images/PuzzleProject/puzzle1_I.jpg"/></div>
+                    <div class="pj">10</div>
+                    <div class="pk">11</div>
+                    <div class="pl">12</div>
+                    <div class="pm">13</div>
+                    <div class="pn">14</div>
+                    <div class="po">15</div>
+                    <div class="pp">16</div>
+                    <div class="pq">17</div>
+                </section>
+            </div>
+            <div>a</div>
         </section>
       
     </body>
