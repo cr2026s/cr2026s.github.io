@@ -267,6 +267,16 @@ rows and cols attribute controls how big it is, you can put in sample text by ju
                 grid-area: ft; 
                 background-color: #ffb3f6;
             }
+            section.kaf {
+                display: grid;
+                gap: 5px;
+                grid-template-columns: repeat(7, 1fr);
+                width: 200px;
+                background-color: #b4fe86;
+            }
+            div.uuu {
+                grid-area: 1 / 2 / span 2 / span 3;
+            }
         </style>
         <section class="g">
             <div class="gi">1</div>
@@ -285,6 +295,15 @@ rows and cols attribute controls how big it is, you can put in sample text by ju
             <div class="grid-item2">Navigation</div>
             <div class="grid-item3">Main text</div>
             <div class="grid-item4">Footer</div>
+        </section>
+        <section class="kaf">
+            <div class="uuu">1</div>
+            <div class="gi">2</div>
+            <div class="gi">3</div>
+            <div class="gi">4</div>
+            <div class="gi">5</div>
+            <div class="gi">6</div>
+            <div class="gi">7</div>
         </section>
     </body>
 </html>
