@@ -14,7 +14,8 @@
           section.puzzle {
               display:grid;
               grid-template-columns: repeat(4, 1fr);
-              gap:1px;
+              grid-auto-columns: max-content;
+              grid-auto-rows: max-content;
               grid-template-rows: repeat(4, 1fr); 
               grid-template-areas:
                   'p1 p2 p3 p4'
@@ -94,7 +95,9 @@
           
         </style> 
         <section class="info">
-            <div>a</div>
+            <div style="border:5px solid #000000; text-align:center; font-size: 30px; color:#ffffff;">
+                a
+            </div>
             <div>
                 <section class="puzzle">
                     <div class="pa"><img src="Images/PuzzleProject/puzzle1_A.jpg"/></div>
@@ -116,7 +119,9 @@
                     <div class="pq">17</div>
                 </section>
             </div>
-            <div>a</div>
+            <div>
+                a
+            </div>
         </section>
       
     </body>
