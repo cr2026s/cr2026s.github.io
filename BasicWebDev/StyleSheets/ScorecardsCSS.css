@@ -5,3 +5,6 @@ table, td, tr, th {
     text-align:center;
     font-family:cursive;
 }
+td:first-of-type {
+    font-weight:bold;
+}
