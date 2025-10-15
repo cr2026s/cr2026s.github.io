@@ -1,14 +1,8 @@
-p {
-    background-color:#ffb3f6;
-    color:#ffffff;
-    font-family:cursive;
-    font-size:20px;
-}
 table, td, tr, th {
     border: 2px solid #000000;
     background-color:#c190c2;
     color:#ffb3f6;
     text-align:center;
-    text-color:#000000;
+    font-size:5px;
     font-family:cursive;
 }
