@@ -1,0 +1,13 @@
+body.mmm {
+    background-color: #000000;
+    color:#ffffff;
+    content-align: center;
+}
+div.steps {
+    border: double 7px #ffffff;
+    self-align: center;
+    content-align: center;
+    h3 {
+        text-decoration: underline;
+    }
+}
