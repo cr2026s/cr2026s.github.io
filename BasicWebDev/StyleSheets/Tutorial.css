@@ -2,12 +2,16 @@ body.mmm {
     background-color: #000000;
     color:#ffffff;
     content-align: center;
+    font-family:cursive;
+    font-size:20px;
 }
 div.steps {
+    height:1000px;
+    width:1000px;
     border: double 7px #ffffff;
     self-align: center;
     content-align: center;
-    h3 {
+    h4 {
         text-decoration: underline;
     }
 }
