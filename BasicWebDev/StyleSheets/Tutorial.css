@@ -7,8 +7,7 @@ body.mmm {
     font-size:20px;
 }
 div.steps {
-    height:1000px;
-    width:1000px;
+    width:880px;
     border: double 7px #ffffff;
     margin:5px auto;
     content-align: center;
