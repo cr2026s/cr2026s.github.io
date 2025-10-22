@@ -44,6 +44,8 @@ p{
     100% {background-color:#602007;}
 }
 div.banner{
+    height:300px;
+    width:100%;
     animation-name: holo;
     animation-duration: 60s;
     animation-iteration-count: infinite; 
