@@ -1,0 +1,21 @@
+div{
+    width:600px;
+    height:300px;
+    color:#000000;
+    font-family:cursive;
+    font-size:30px;
+    padding:20px;
+    text-align:center;
+    border-curve:70px;
+    border: 3px solid #ff0000;
+    background-color:#000000;
+    transition:color 2s, border 1.2s;
+    transition-timing-function:ease-in;
+}
+div:hover{
+    color:#faa4ed;
+    border:5px double #00ff00;
+}
+p{
+    color:#ffffff;
+}
