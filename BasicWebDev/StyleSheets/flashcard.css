@@ -20,3 +20,31 @@ div:hover{
 p{
     color:#ffffff;
 }
+@keyframes holo{
+    0% {background-color:#000000;}
+    5% {background-color:#00000f;}
+    10% {background-color:#0000ff;}
+    15% {background-color:#000fff;}
+    20% {background-color:#00ffff;}
+    25% {background-color:#0fffff;}
+    30% {background-color:#ffffff;}
+    35% {background-color:#000ff0;}
+    40% {background-color:#0ff000;}
+    45% {background-color:#f00f00;}
+    50% {background-color:#f0000f;}
+    55% {background-color:#cecece;}
+    60% {background-color:#faa4ed;}
+    65% {background-color:#cc6ce7;}
+    70% {background-color:#14b554;}
+    75% {background-color:#e7ddff;}
+    80% {background-color:#ffeca1;}
+    85% {background-color:#eeaaaa;}
+    90% {background-color:#8d6f64;}
+    95% {background-color:#060270;}
+    100% {background-color:#602007;}
+}
+div.banner{
+    animation-name: holo;
+    animation-duration: 60s;
+    animation-iteration-count: infinite; 
+}
