@@ -11,4 +11,6 @@ div.product {
     border-radius:15px;
     height: 288px; width:200px;
     margin: 0px 20px 12px;
+    display: inline-block;
+    background-color:#fd89de;
 }
