@@ -13,4 +13,7 @@ div.product {
     margin: 0px 20px 12px;
     display: inline-block;
     background-color:#fd89de;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
