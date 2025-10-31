@@ -1,0 +1,14 @@
+body.help {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body.about {
+    text-align: center;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.product {
+    border-radius:15px;
+    height: 288px; width:200px;
+    margin: 0px 20px 12px;
+}
